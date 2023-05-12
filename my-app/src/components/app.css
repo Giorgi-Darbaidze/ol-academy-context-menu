@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#list_frame {
+    margin: 20rem 60rem;
+    font-size: larger;
+}
+
+#li1 {
+    background-color: rgb(99, 255, 47);
+    border-radius: 5px;
+    cursor: pointer;
+    width: 10rem;
+    height: 1.5rem;
+}
+
+#li2 {
+    background-color: rgb(47, 182, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    width: 10rem;
+    height: 1.5rem;
+}
+
+#li3 {
+    background-color: rgb(173, 125, 249);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    width: 10rem;
+    height: 1.5rem;
+}
+
+#li4 {
+    background-color: rgb(255, 227, 47);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    width: 10rem;
+    height: 1.5rem;
+}
+
+#li5 {
+    background-color: rgb(240, 90, 90);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    width: 10rem;
+    height: 1.5rem;
+}
+
+#li1_menu {
+    background-color: rgba(0, 0, 0, 0.793);
+    width: 20rem;
+    height: 5rem;
+}
+
+#edit {
+    margin-left: 1.9rem;
+    border-radius: 5px;
+    border: white solid;
+    background-color: white;
+    cursor: pointer;
+}
+
+#remove {
+    margin-left: 10px;
+    border-radius: 5px;
+    border: white solid;
+    background-color: white;
+    cursor: pointer;
+}
+
+#edit:hover {
+    background-color: rgba(255, 255, 255, 0.672);
+    border-color: rgba(255, 255, 255, 0.672);
+}
+
+#remove:hover {
+    background-color: rgba(255, 255, 255, 0.672);
+    border-color: rgba(255, 255, 255, 0.672);
+}
